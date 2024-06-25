@@ -16,10 +16,10 @@ int dist = 0;
 
 // Piezo Sensor connections
 const int buzzerPin = 10;
+const int sensorPin = A0; 
 const int vibrationThreshold = 300;
 const int ledPin = A4;
 int led = 0;
-const int sensorPin = A0; 
 
 void setup() {
   // Set all the motor control pins to outputs
